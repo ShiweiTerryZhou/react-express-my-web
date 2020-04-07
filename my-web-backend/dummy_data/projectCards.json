@@ -1,0 +1,47 @@
+[
+  {
+    "index": 0,
+    "title": "This Website",
+    "thumbnail": "http://placehold.it/700x400",
+    "description": "This website serves as a full-stack playground and will be added with new stuff periodically. Stricktly saying, a never ending project",
+    "start_date": "4/1/2020",
+    "end_date": "ongoing",
+    "link": "https://github.com/ShiweiTerryZhou/react-express-my-web"
+  },
+  {
+    "index": 1,
+    "title": "React Mini BlockChain",
+    "thumbnail": "http://placehold.it/700x400",
+    "description": "Building a blockchain playground just on REACT front end. So I don't need to worry about server explosion if one day I deployed it.",
+    "start_date": "3/15/2020",
+    "end_date": "ongoing",
+    "link": "https://github.com/ShiweiTerryZhou/react-mini-blockchain"
+  },
+  {
+    "index": 2,
+    "title": "Express Redis Authentication Module",
+    "thumbnail": "http://placehold.it/700x400",
+    "description": "An express log-in authentication module developed for lab project. User data is based on Redis database",
+    "start_date": "10/1/2019",
+    "end_date": "11/1/2019",
+    "link": "https://github.com/ShiweiTerryZhou/redis-auth-module-express"
+  },
+  {
+    "index": 3,
+    "title": "Recommender System Searching Engine",
+    "thumbnail": "http://placehold.it/700x400",
+    "description": "Small ML projects using recommender system to fake search engine on image related searching",
+    "start_date": "10/1/2029",
+    "end_date": "11/1/2019",
+    "link": "https://github.com/ShiweiTerryZhou/react-mini-blockchain"
+  },
+  {
+    "index": 4,
+    "title": "Mini Quiz APP",
+    "thumbnail": "http://placehold.it/700x400",
+    "description": "A bootstrap front-end mini quiz APP built during undergrad year. Improved and completed from a front-end design class.",
+    "start_date": "2018",
+    "end_date": "2018",
+    "link": "https://github.com/ShiweiTerryZhou/bootstrap-quiz-app"
+  }
+]
