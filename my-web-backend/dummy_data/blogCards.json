@@ -1,0 +1,56 @@
+[
+    {
+        "index": 0,
+        "title": "Install NodeJS on EC2",
+        "thumbnail": "",
+        "description": "The article I keep reference to about installing NodeJS on Amazone Linux 2",
+        "date": "4/9/2020",
+        "link": "https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html",
+        "categories": "EC2"
+    },
+    {
+        "index": 1,
+        "title": "Install MongoDB on EC2",
+        "thumbnail": "",
+        "description": "The article I keep reference to about installing MongoDB on Amazone Linux 2",
+        "date": "4/9/2020",
+        "link": "https://docs.mongodb.com/manual/tutorial/install-mongodb-on-amazon/",
+        "categories": "EC2"
+    },
+    {
+        "index": 2,
+        "title": "Import MongoDB by CLI",
+        "thumbnail": "",
+        "description": "Official documents about importing MongoDB on CLI",
+        "date": "4/9/2020",
+        "link": "https://docs.mongodb.com/guides/server/import/",
+        "categories": "EC2"
+    },
+    {
+        "index": 3,
+        "title": "How to solve invalid host issue",
+        "thumbnail": "",
+        "description": "How to disable host check to solve invalid host issue when deplaying REACT",
+        "date": "4/9/2020",
+        "link": "https://ourcodeworld.com/articles/read/501/webpack-invalid-host-header-cannot-access-webpack-dev-server-from-the-lan",
+        "categories": "REACT"
+    },
+    {
+        "index": 4,
+        "title": "Install GIT on EC2",
+        "thumbnail": "",
+        "description": "Documents I reference to when installing git on Amazone Linux 2",
+        "date": "4/9/2020",
+        "link": "https://cloudaffaire.com/how-to-install-git-in-aws-ec2-instance/",
+        "categories": "EC2"
+    },
+    {
+        "index": 5,
+        "title": "Create Persistent Environment on EC2",
+        "thumbnail": "",
+        "description": "How to create persistent environment for remote environment after CLI is closed",
+        "date": "4/9/2020",
+        "link": "https://stackoverflow.com/questions/26245942/how-do-i-leave-node-js-server-on-ec2-running-forever",
+        "categories": "EC2"
+    }
+]

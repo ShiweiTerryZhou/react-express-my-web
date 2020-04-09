@@ -6,36 +6,48 @@ class BlogsPage extends Component {
     super(props);
     this.state = {
       blogs: [
-        {
-          index: 1,
-          thumbnail: 'http://placehold.it/750x300',
-          title: 'Blog One',
-          description:
-            'asiudhoiuhsad  asiudh aoiusdh aiosudh aoisduh aiosudh aoisudh aasd',
-          date: '2020-1-1',
-          creater: 'Shiwei Zhou',
-        },
-        {
-          index: 2,
-          thumbnail: 'http://placehold.it/750x300',
-          title: 'Blog Two',
-          description:
-            'asiudhoiuhsad  asiudh aoiusdh aiosudh aoisduh aiosudh aoisudh aasd',
-          date: '2020-1-1',
-          creater: 'Shiwei Zhou',
-        },
-        {
-          index: 3,
-          thumbnail: 'http://placehold.it/750x300',
-          title: 'Blog Three',
-          description:
-            'asiudhoiuhsad  asiudh aoiusdh aiosudh aoisduh aiosudh aoisudh aasd',
-          date: '2020-1-1',
-          creater: 'Terry Zhou',
-        },
+        // {
+        //   index: 1,
+        //   thumbnail: 'http://placehold.it/750x300',
+        //   title: 'Blog One',
+        //   description:
+        //     'asiudhoiuhsad  asiudh aoiusdh aiosudh aoisduh aiosudh aoisudh aasd',
+        //   date: '2020-1-1',
+        //   creater: 'Shiwei Zhou',
+        // },
+        // {
+        //   index: 2,
+        //   thumbnail: 'http://placehold.it/750x300',
+        //   title: 'Blog Two',
+        //   description:
+        //     'asiudhoiuhsad  asiudh aoiusdh aiosudh aoisduh aiosudh aoisudh aasd',
+        //   date: '2020-1-1',
+        //   creater: 'Shiwei Zhou',
+        // },
+        // {
+        //   index: 3,
+        //   thumbnail: 'http://placehold.it/750x300',
+        //   title: 'Blog Three',
+        //   description:
+        //     'asiudhoiuhsad  asiudh aoiusdh aiosudh aoisduh aiosudh aoisudh aasd',
+        //   date: '2020-1-1',
+        //   creater: 'Terry Zhou',
+        // },
       ],
     };
   }
+
+  componentDidMount() {
+    fetch('/api/v1.0/blogcards')
+      .then((res) => {
+        return res.json();
+      })
+      .then((resJ) => {
+        console.log(resJ);
+        this.setState({ blogs: resJ.data.newblogCard });
+      });
+  }
+
   render() {
     return (
       <div className="container">
@@ -45,7 +57,7 @@ class BlogsPage extends Component {
           </h1>
           <ol className="breadcrumb">
             <li className="breadcrumb-item">
-              <a>Yeah, I haven't finished this part yet</a>
+              <a>Yeah, I haven't finished search tool and tag tool yet</a>
             </li>
           </ol>
         </div>
@@ -83,23 +95,23 @@ class BlogsPage extends Component {
                     <div className="col-lg-6">
                       <ul className="list-unstyled mb-0">
                         <li>
-                          <a href="#">Web Design</a>
+                          <a href="#">System Environment</a>
                         </li>
                         <li>
-                          <a href="#">HTML</a>
+                          <a href="#">NodeJS</a>
                         </li>
                         <li>
-                          <a href="#">Freebies</a>
+                          <a href="#">Amazone EC2</a>
                         </li>
                       </ul>
                     </div>
                     <div className="col-lg-6">
                       <ul className="list-unstyled mb-0">
                         <li>
-                          <a href="#">JavaScript</a>
+                          <a href="#">EXPRESS</a>
                         </li>
                         <li>
-                          <a href="#">CSS</a>
+                          <a href="#">REACT</a>
                         </li>
                         <li>
                           <a href="#">Tutorials</a>
@@ -111,11 +123,10 @@ class BlogsPage extends Component {
               </div>
               {/* Side Widget */}
               <div className="card my-4">
-                <h5 className="card-header">Side Widget</h5>
+                <h5 className="card-header">Notice Board</h5>
                 <div className="card-body">
-                  You can put anything you want inside of these side widgets.
-                  They are easy to use, and feature the new Bootstrap 4 card
-                  containers!
+                  There are only external posts right now. Since my own posts will require a new CRUD on backend and also a deeper depth on REACT layer,
+                  I may only be able to post my own posts only after I finished admin system and REACT state control for this website.
                 </div>
               </div>
             </div>

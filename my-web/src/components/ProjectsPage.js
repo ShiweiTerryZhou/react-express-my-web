@@ -31,7 +31,7 @@ class ProjectsPage extends Component {
           </h1>
           <ol className="breadcrumb">
             <li className="breadcrumb-item">
-              <a>More projects still under organizing</a>
+              <a>More projects are still under organizing</a>
             </li>
           </ol>
           <div className="row">

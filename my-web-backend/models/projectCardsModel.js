@@ -17,6 +17,16 @@ const projectCardsSchema = new mongoose.Schema({
     type: String,
     required: [true, 'project card must have description'],
   },
+  start_date: {
+    type: String,
+  },
+  end_date: {
+    type: String,
+  },
+  link: {
+    type: String,
+    required: [true, 'project card must have github link'],
+  }
 });
 
 const ProjectCards = mongoose.model('ProjectCards', projectCardsSchema);

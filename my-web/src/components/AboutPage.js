@@ -10,7 +10,7 @@ class AboutPage extends Component {
           </h1>
           <ol className="breadcrumb">
             <li className="breadcrumb-item">
-              <a>A Build From Scratch</a>
+              <a>Hi, it is also mobile friendly</a>
             </li>
           </ol>
           <div className="row">
@@ -38,7 +38,7 @@ class AboutPage extends Component {
                 This websites is composed of react.js as client server and
                 express.js as backend server. Using Mongoose as interface to
                 MongoDB to serve dynamic data and also make myself easier to
-                edit content later. CMV structure is implement as backend
+                edit content later. MVC(model-view-controller) pattern is implement as backend
                 structure. However, I haven't implemented any state management
                 API (like Redux) at the front due to the shallow depth of the
                 site.

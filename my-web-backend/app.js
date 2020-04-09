@@ -2,6 +2,7 @@ const express = require('express');
 const dotenv = require('dotenv');
 const mongoose = require('mongoose');
 const projectCardsRouter = require('./routes/projectCardsRouter');
+const blogCardsRouter = require('./routes/blogCardsRouter');
 const app = express();
 
 //configuration
@@ -33,6 +34,7 @@ mongoose
 
 //routes
 app.use('/api/v1.0/projectcards', projectCardsRouter);
+app.use('/api/v1.0/blogcards', blogCardsRouter);
 
 //start server
 const port = process.env.PORT;

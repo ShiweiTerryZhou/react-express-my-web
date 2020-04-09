@@ -1,3 +1,5 @@
+const modelOBJ = require('./../models/myModel');
+
 exports.get_function = (req, res) => {
   res.status(200).json({
     status: 'success',
