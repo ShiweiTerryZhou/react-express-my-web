@@ -19,23 +19,19 @@ class HomePage extends Component {
           </div>
           <div className="row">
             <div style={{ marginLeft: 20, marginRight: 60 }}>
-              <h2>Fresh Off the Boat</h2>
+              <h2>A Short Introduction</h2>
               <p>
-                I was born in Wuhan, China. No one knows this place until the
-                whole COVID-19 pandemic. Came to U.S in 2014 for college. Spent
-                next six yeard in University of California, San Diego to
-                complete my BS and MS in Computer Science. Those years are not
-                easy for me. I started as a physics student and took a lot
-                effort to switch my path to Computer Science. From barely catch
-                up the lecture to make presentation, now I see La Jolla as my
-                second home.
+                My name is Shiwei Zhou. You can also call me Terry. Came to US on 2014 for
+                college. Spent the following 5 years to complete my BS in Computer Engineer and
+                MS in Computer Science. Fun fact, I started as Physics major in freshmen but made
+                my way to be a software engineer. I am on the way of seeking my 1st job and also Learning
+                new stuff. Recently got interested in AWS and earned AWS Certified Solution Architect. (took
+                some time to learn the stuff so why not take the test.)
               </p>
               <p>
                 If you are a Recruiter, I would appreciate a lot if you could
                 spend a few minutes playing around and hopefully put me on your
-                interview queue. I may not be the most experienced or most
-                competitive candidate on your table, but I wish you can find my
-                special charm through my website.
+                interview queue.
               </p>
               <p>
                 You will find my past and ongoing projects, useful resouces I

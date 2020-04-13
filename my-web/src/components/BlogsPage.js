@@ -70,7 +70,7 @@ class BlogsPage extends Component {
 
           <div className="col-md-4">
             <div>
-              <div className="card mb-4">
+              {/* <div className="card mb-4">
                 <h5 className="card-header">Search</h5>
                 <div className="card-body">
                   <div className="input-group">
@@ -86,9 +86,9 @@ class BlogsPage extends Component {
                     </span>
                   </div>
                 </div>
-              </div>
+              </div> */}
               {/* Categories Widget */}
-              <div className="card my-4">
+              {/* <div className="card my-4">
                 <h5 className="card-header">Categories</h5>
                 <div className="card-body">
                   <div className="row">
@@ -120,7 +120,7 @@ class BlogsPage extends Component {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               {/* Side Widget */}
               <div className="card my-4">
                 <h5 className="card-header">Notice Board</h5>
