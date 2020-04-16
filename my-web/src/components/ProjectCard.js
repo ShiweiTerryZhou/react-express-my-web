@@ -41,11 +41,12 @@ class ProjectCard extends Component {
             {(() => {
               switch (this.state.liveDemo) {
                 case 0:
-                  return (
-                    <Button href="#" variant="secondary" size="lg" disabled>
-                      Live Demo
-                    </Button>
-                  );
+                  return;
+                // return (
+                //   <Button href="#" variant="secondary" size="lg" disabled>
+                //     Live Demo
+                //   </Button>
+                // );
                 case 1:
                   return (
                     <Button
