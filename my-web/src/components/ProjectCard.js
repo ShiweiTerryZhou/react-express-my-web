@@ -1,11 +1,21 @@
 import React, { Component } from 'react';
-
+import { Button } from 'react-bootstrap';
 class ProjectCard extends Component {
   constructor(props) {
     super(props);
-    console.log(props);
+    let temp_liveDemo = 0;
+    if (this.props.value.demo) {
+      temp_liveDemo = 1;
+    }
+    this.state = {
+      liveDemo: temp_liveDemo,
+    };
   }
+
+  componentDidMount() {}
+
   render() {
+    console.log(this.state.liveDemo);
     return (
       <div className="col-lg-4 col-sm-6 pb-5 portfolio-item">
         <div className="card h-100">
@@ -27,6 +37,29 @@ class ProjectCard extends Component {
               </p>
             </h6>
             <p className="card-text">{this.props.value.description}</p>
+
+            {(() => {
+              switch (this.state.liveDemo) {
+                case 0:
+                  return (
+                    <Button href="#" variant="secondary" size="lg" disabled>
+                      Live Demo
+                    </Button>
+                  );
+                case 1:
+                  return (
+                    <Button
+                      href={this.props.value.demo}
+                      variant="primary"
+                      size="lg"
+                    >
+                      Live Demo
+                    </Button>
+                  );
+                default:
+                  return <br />;
+              }
+            })()}
           </div>
         </div>
       </div>

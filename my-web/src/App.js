@@ -20,11 +20,11 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('/api/v1.0/projectcards')
-      .then((res) => {
-        return res.json();
-      })
-      .then((resJ) => console.log('Connection to Express: ' + resJ.status));
+    // fetch('/api/v1.0/projectcards')
+    //   .then((res) => {
+    //     return res.json();
+    //   })
+    //   .then((resJ) => console.log('Connection to Express: ' + resJ.status));
   }
 
   render() {
